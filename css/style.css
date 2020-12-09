@@ -24,12 +24,8 @@ body {
     font-family: 'Playfair Display', serif;
 }
 
-.header__container {
+header {
     height: 100vh;
-    position: relative;
-}
-
-.header {
     position: relative;
 }
 
@@ -109,11 +105,10 @@ body {
 .header__title {
     background: #11344F;
     padding: 40px;
+    top: 75.4%;
     width: 800px;
-    z-index: 10000;
     position: absolute;
-    top: -50%;
-    right: 13%;
+    left: 33%;
 }
 
 header h1 {
@@ -553,7 +548,7 @@ footer {
 /* Слайдер */
 .slick-slider {
     min-width: 0;
-    position: relative;
+    /* position: relative; */
 }
 
 /* Ограничивающая оболочка */
@@ -722,25 +717,6 @@ div.slider__item:nth-child(4)>img:nth-child(1) {
 .byt__text>p:nth-child(3) {
     margin-bottom: 100px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* Конкретный слайдер */
 .slider2 {
