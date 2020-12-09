@@ -1,0 +1,817 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    font-size: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+
+a,
+button,
+input,
+textarea:active,
+:hover,
+:focus {
+    outline: 0;
+    outline-offset: 0;
+    box-shadow: none;
+    text-decoration: none;
+}
+
+body {
+    overflow-x: hidden;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Playfair Display', serif;
+}
+
+.header__container {
+    height: 100vh;
+    position: relative;
+}
+
+.header {
+    position: relative;
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.nav__menu {
+    position: absolute;
+    z-index: 10000;
+    top: 0;
+}
+
+.nav__menu a {
+    margin-right: 15px;
+
+}
+
+.nav__menu a:hover {
+    filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.25));
+    cursor: pointer;
+}
+
+.header__offer {
+    text-align: center;
+    position: absolute;
+    top: 10%;
+    right: 35%;
+}
+
+.header__offer h3 {
+    font-family: Playfair Display;
+    font-weight: bold;
+    font-size: 4.8rem;
+    text-transform: uppercase;
+    color: #11344F;
+    margin-top: 123px;
+    margin-bottom: 40px;
+}
+
+.header__offer h4 {
+    font-size: 2.4rem;
+    color: #11344F;
+    font-family: Montserrat;
+    font-weight: normal;
+    margin-bottom: 80px;
+    line-height: 1.5;
+}
+
+.header__offer a {
+    font-family: Montserrat;
+    font-weight: normal;
+    font-size: 1.8rem;
+    color: #FFFFFF;
+    background: #11344F;
+    padding: 30px;
+    margin-top: 40px;
+    text-transform: uppercase;
+}
+
+.header__offer a:hover {
+    font-family: Montserrat;
+    font-weight: normal;
+    font-size: 1.8rem;
+    color: #11344F;
+    background: #fff;
+    padding: 30px;
+    margin-top: 40px;
+    cursor: pointer;
+}
+
+.header__offer a:active {
+    filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.25));
+}
+
+.header__title {
+    background: #11344F;
+    padding: 40px;
+    width: 800px;
+    z-index: 10000;
+    position: absolute;
+    top: -50%;
+    right: 13%;
+}
+
+header h1 {
+    font-family: Playfair Display;
+    font-weight: normal;
+    font-size: 7.2rem;
+    text-transform: uppercase;
+    border: 1px solid #fff;
+    background: transparent;
+    color: #fff;
+    padding: 30px 70px;
+}
+
+.header__title>h1:nth-child(1) {
+    width: 660px;
+}
+
+.about {
+    padding: 120px 0;
+}
+
+h2 {
+    font-family: Playfair Display;
+    font-weight: normal;
+    font-size: 3.6rem;
+    text-transform: uppercase;
+    color: #11344F;
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+.about p {
+    text-align: center;
+    font-size: 1.8rem;
+    font-family: Montserrat;
+    line-height: 1.5;
+    color: #11344F;
+    width: 890px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+.about__wrap {
+    display: flex;
+    justify-content: space-between;
+}
+
+.home {
+    position: relative;
+}
+
+.home img {
+    width: 100%;
+    border-bottom: 10px solid #11344F;
+}
+
+
+.home__title {
+    background: #fff;
+    padding: 30px;
+    width: 740px;
+    margin: 0 auto;
+    margin-top: 260px;
+    position: absolute;
+    top: 65.4%;
+    right: 34%;
+}
+
+.home p {
+    font-family: Playfair Display;
+    font-weight: normal;
+    font-size: 7.2rem;
+    text-transform: uppercase;
+    border: 1px solid #11344F;
+    background: transparent;
+    color: #11344F;
+    padding: 30px 40px;
+}
+
+.apartmans {
+    padding: 120px;
+}
+
+.apartmans__wrap {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.apartmans__byt {
+    width: 50%;
+    filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.25));
+    position: relative;
+    z-index: 1;
+    margin-bottom: 30px;
+}
+
+.apartmans__byt a img {
+    filter: opacity(50%);
+    z-index: 1;
+}
+
+.apartmans__byt a img:hover {
+    filter: opacity(100%);
+    cursor: pointer;
+}
+
+.apartmans__byt a img {
+    border-bottom: 50px solid #fff;
+
+}
+
+.apartmans__byt p {
+    color: #11344F;
+    font-family: Montserrat;
+    font-style: normal;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    color: #11344F;
+    text-align: center;
+    padding: 10px;
+    position: absolute;
+    top: 85%;
+    width: 230px;
+    right: -35%;
+}
+
+.apartmans__title {
+    font-family: Playfair Display;
+    font-weight: normal;
+    font-size: 9.6rem;
+    line-height: 128px;
+    text-transform: uppercase;
+    color: #11344F;
+    position: absolute;
+    z-index: 200;
+    filter: opacity(100%);
+    top: 20%;
+    right: -10%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+div.apartmans__byt:nth-child(1)>div:nth-child(3) {
+    right: 0%;
+}
+
+div.apartmans__byt:nth-child(2)>div:nth-child(3) {
+    right: -2%;
+}
+
+div.apartmans__byt:nth-child(5)>div:nth-child(3) {
+    right: 0%;
+}
+
+.container__buy {
+    background: #11344F;
+    padding: 120px;
+}
+
+.title__buy {
+    font-family: Playfair Display;
+    font-weight: normal;
+    font-size: 3.6rem;
+    text-transform: uppercase;
+    color: #fff;
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+.buy__wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.buy__text {
+    display: flex;
+    margin-bottom: 55px;
+    margin-right: 115px;
+    vertical-align: top;
+}
+
+.buy__text img {
+    margin-right: 35px;
+    margin-top: -100px;
+}
+
+.buy__item h3 {
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 2.4rem;
+    color: #fff;
+    margin-bottom: 33px;
+}
+
+.buy__item p {
+    font-family: Montserrat;
+    font-weight: normal;
+    font-size: 1.8rem;
+    width: 550px;
+    line-height: 1.5;
+    color: #fff;
+}
+
+.buy__img img {
+    margin-bottom: 30px;
+}
+
+.location {
+    padding: 120px 0 0 0;
+}
+
+.location p {
+    text-align: center;
+    font-size: 1.8rem;
+    font-family: Montserrat;
+    line-height: 1.5;
+    color: #11344F;
+    width: 890px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+.location__img {
+    width: 100%;
+}
+
+.location__img img {
+    width: 33.25%;
+}
+
+.contacts__container {
+    padding: 120px;
+    background: url(../img/bg__contacts.png)no-repeat top center;
+    background-size: cover;
+}
+
+.contacts {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contacts__item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 35px;
+}
+
+.contacts__item img {
+    margin-right: 25px;
+}
+
+.contacts__item a:hover {
+    filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.25));
+    cursor: pointer;
+}
+
+.contacts__item p {
+    font-family: Montserrat;
+    font-style: normal;
+    font-size: 2.4rem;
+    color: #FFFFFF;
+}
+
+form {
+    width: 60%;
+    background: #fff;
+    border-radius: 10px;
+    filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.4));
+    margin: 0 auto;
+    padding: 60px;
+    text-align: center;
+}
+
+form h3 {
+    text-align: center;
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 2.4rem;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+    color: #11344F;
+}
+
+form input {
+    border-radius: 10px;
+    border: 1px solid #11344F;
+    padding: 30px;
+    width: 80%;
+    margin-bottom: 30px;
+    margin: 0 auto;
+    font-family: Montserrat;
+    font-size: 1.8rem;
+
+}
+
+.select:after {
+    content: url(../img/arrow.svg);
+    position: absolute;
+    top: 33%;
+    right: 18%;
+
+
+    display: block;
+    pointer-events: none;
+    z-index: 1;
+}
+
+.select select {
+    display: block;
+    width: 95%;
+    padding: 30px;
+    background: none;
+    border: 1px solid #11344F;
+    border-radius: 10px;
+    -webkit-appearance: none;
+    appearance: none;
+    font-family: Montserrat;
+    font-size: 1.8rem;
+    color: #11344F;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.select select:focus {
+    outline: 0;
+    border-color: #0891e6;
+}
+
+option {
+    background-color: #fff;
+    font-size: 1.8rem;
+    width: 80%;
+    font-family: Montserrat;
+    color: #11344F;
+
+}
+
+
+
+form textarea {
+    font-family: Montserrat;
+    font-size: 1.8rem;
+    width: 80%;
+    border: 1px solid #11344F;
+    padding: 30px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+form button {
+    width: 95%;
+    font-family: Montserrat;
+    font-size: 1.8rem;
+    padding: 30px;
+    background: #11344F;
+    border-radius: 10px;
+    color: #fff;
+}
+
+form button:hover {
+    background: #4E6297;
+    color: #fff;
+    cursor: pointer;
+
+}
+
+form button:active {
+    filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.25));
+}
+
+.container__footer {
+    background: #11344F;
+    padding: 30px;
+}
+
+footer {
+    text-align: center;
+    font-size: 1.4rem;
+    font-weight: normal;
+    font-family: Montserrat;
+    color: #fff;
+}
+
+.permission {
+    display: flex;
+    height: 100vh;
+}
+
+.permission__wrap {
+    background: #11344F;
+    text-align: center;
+    margin: 0 auto;
+    padding: 170px 60px;
+    width: 51%;
+}
+
+.permission__wrap h1 {
+    font-family: Playfair Display;
+    font-weight: bold;
+    font-size: 4.8rem;
+    line-height: 64px;
+    text-transform: uppercase;
+    margin-bottom: 60px;
+    color: #FFFFFF;
+}
+
+.permission__wrap p {
+    font-family: Montserrat;
+    font-weight: normal;
+    font-size: 1.8rem;
+    text-align: center;
+    color: #FFFFFF;
+    line-height: 1.5;
+    width: 650px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+
+.permission__wrap a {
+    font-family: Montserrat;
+    font-weight: normal;
+    font-size: 1.8rem;
+    text-align: center;
+    text-transform: uppercase;
+    color: #11344F;
+    background: #fff;
+    padding: 30px 170px;
+    margin-top: 60px;
+}
+
+.permission__wrap>p:nth-child(3) {
+    margin-bottom: 100px;
+}
+
+/* Слайдер */
+.slick-slider {
+    min-width: 0;
+    position: relative;
+}
+
+/* Ограничивающая оболочка */
+.slick-list {
+    overflow: hidden;
+}
+
+/* Лента слайдов */
+.slick-track {
+    display: flex;
+    align-items: flex-start;
+}
+
+/* Стрелка */
+.slick-arrow {
+    border: 0;
+}
+
+/* Стрелка влево */
+.slick-arrow.slick-prev {
+    border: 0;
+}
+
+/* Стрелка вправо */
+.slick-arrow.slick-next {
+    border: 0;
+}
+
+/* Точки */
+.slick-dots {
+    border: 0;
+    padding: 0;
+}
+
+.slick-dots li {
+
+    border: 0;
+}
+
+.slick-dots button {
+    border: 0;
+}
+
+.slider .slick-arrow.slick-disabled {
+    opacity: 0.1;
+}
+
+/* Конкретный слайдер */
+.slider {
+    padding: 0px;
+}
+
+стрелки .slider .slick-arrow {
+    position: absolute;
+    top: 50%;
+    margin: -30px 0px 0px 0px;
+    z-index: 10;
+    font-size: 0;
+    width: 30px;
+    height: 60px;
+}
+
+.slider .slick-arrow.slick-prev {
+    left: 0;
+    background: url(../img/sl-arrow_l.svg) 0 0/100% no-repeat;
+}
+
+.slider .slick-arrow.slick-next {
+    right: 0;
+    background: url(../img/sl-arrow_r.svg) 0 0/100% no-repeat;
+}
+
+.slider .slick-dots {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.slider .slick-dots li {
+    list-style: none;
+    margin: 0px 10px;
+}
+
+.slider .slick-dots button {
+    font-size: 0;
+    width: 10px;
+    height: 10px;
+    background-color: #fff;
+    border-radius: 50%;
+    outline: none;
+}
+
+.slider__item {
+    position: relative;
+    z-index: 1;
+}
+
+.slider .slick-dots li.slick-active button {
+    background-color: transparent;
+    border: 1px solid #fff;
+}
+
+div.slider__item:nth-child(2)>img:nth-child(1) {
+    width: 100%;
+    height: 100vh;
+}
+
+div.slider__item:nth-child(3)>img:nth-child(1) {
+    width: 100%;
+    height: 100vh;
+}
+
+div.slider__item:nth-child(4)>img:nth-child(1) {
+    width: 100%;
+    height: 100vh;
+}
+
+.byt__wrap {
+    display: flex;
+    justify-content: space-between;
+    height: 100vh;
+}
+
+.byt__text {
+    background: #11344F;
+    text-align: center;
+    margin: 0 auto;
+    padding: 200px 60px;
+    width: 50%;
+}
+
+.byt__text h1 {
+    font-family: Playfair Display;
+    font-weight: bold;
+    font-size: 4.8rem;
+    line-height: 64px;
+    text-transform: uppercase;
+    margin-bottom: 60px;
+    color: #FFFFFF;
+}
+
+.byt__text p {
+    font-family: Montserrat;
+    font-weight: normal;
+    font-size: 1.8rem;
+    text-align: center;
+    color: #FFFFFF;
+    line-height: 1.5;
+    width: 650px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+
+.byt__text a {
+    font-family: Montserrat;
+    font-weight: normal;
+    font-size: 1.8rem;
+    text-align: center;
+    text-transform: uppercase;
+    color: #11344F;
+    background: #fff;
+    padding: 30px 100px;
+    margin-top: 60px;
+}
+
+.byt__text>p:nth-child(3) {
+    margin-bottom: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Конкретный слайдер */
+.slider2 {
+    padding: 0px;
+    position: relative;
+    z-index: 2;
+    width: 50%;
+}
+
+стрелки .slider2 .slick-arrow {
+    position: absolute;
+    top: 10%;
+    z-index: 100;
+}
+
+.slider2 .slick-dots {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.slider2 .slick-dots li {
+    list-style: none;
+    margin: 0px 10px;
+}
+
+.slider2 .slick-dots button {
+    font-size: 0;
+    width: 10px;
+    height: 10px;
+    background-color: #fff;
+    border-radius: 50%;
+    outline: none;
+}
+
+.slider2 .slick-dots li.slick-active button {
+    background-color: transparent;
+    border: 1px solid #fff;
+}
+
+.slider2 .slick-arrow.slick-prev {
+    background: url(../img/byt__arrow.png) no-repeat;
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    z-index: 999999999;
+    margin-left: 30px;
+}
+
+.slider2 .slick-arrow.slick-next {
+    background: url(../img/byt__arrow__right.png) no-repeat;
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    right: 0;
+    top: 50%;
+    z-index: 99999999;
+    margin-left: 30px;
+}
+
+.slick-prev {
+    font-size: 0px;
+}
+
+.slick-next {
+    font-size: 0px;
+}
+
+div.slider__item2 img {
+    height: 100vh;
+    width: 100%;
+}
