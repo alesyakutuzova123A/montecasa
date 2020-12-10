@@ -47,8 +47,8 @@ body {
 
 .header__offer {
     text-align: center;
-top: 5%;
-left: 35%;
+    position: absolute;
+
 }
 
 .header__offer h3 {
@@ -614,7 +614,7 @@ footer {
   .slider__item img {
     object-fit: cover;
     height: 100vh;
-    width: 100%;
+    width: 100vw;
   }
   
   .slider__body {
