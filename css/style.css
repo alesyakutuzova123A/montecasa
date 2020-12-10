@@ -156,9 +156,6 @@ h2 {
     justify-content: space-between;
 }
 
-.home {
-    position: relative;
-}
 
 .home img {
     width: 100%;
@@ -172,9 +169,8 @@ h2 {
     width: 740px;
     margin: 0 auto;
     margin-top: 260px;
-    position: absolute;
-    top: 65.4%;
-    right: 34%;
+    position: relative;
+    top: -490px;
 }
 
 .home p {
@@ -186,10 +182,6 @@ h2 {
     background: transparent;
     color: #11344F;
     padding: 30px 40px;
-}
-
-.apartmans {
-    padding: 120px;
 }
 
 .apartmans__wrap {
@@ -337,7 +329,7 @@ div.apartmans__byt:nth-child(5)>div:nth-child(3) {
 }
 
 .location__img img {
-    width: 33.25%;
+    width: 33.22%;
 }
 
 .contacts__container {
@@ -645,7 +637,9 @@ footer {
     position: relative;
     z-index: 1;
 }
-
+.slider-item img {
+    object-fit: cover;
+}
 .slider .slick-dots li.slick-active button {
     background-color: transparent;
     border: 1px solid #fff;
@@ -791,3 +785,5 @@ div.slider__item2 img {
     height: 100vh;
     width: 100%;
 }
+
+

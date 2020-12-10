@@ -47,7 +47,9 @@
             <a href=""><img src="img/phone__head.svg" alt="phone"></a>
             <a href="mailto:vlad@htmlbook.ru"><img src="img/email__head.svg" alt="email"></a>
             <a href=""><img src="img/facebook__head.svg" alt="facebook"></a>
+           
         </div>
+        
 </div>
         
         <div class="header__title">
@@ -250,6 +252,14 @@
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="slick.min.js"></script>
     <script src="script.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('.header_burger').click(function (event) {
+                $('.header_burger, .header_menu').toggleClass('active');
+                $('body').toggleClass('lock');
+            });
+        });
+    </script>
 </body>
 
 </html>
