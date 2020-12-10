@@ -613,7 +613,7 @@ footer {
   
   .slider__item img {
     object-fit: cover;
-    height: 1080px;
+    height: 100vh;
     width: 100%;
   }
   
