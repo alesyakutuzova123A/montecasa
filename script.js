@@ -4,9 +4,9 @@
         arrows:false,
         dots:false,
         slidesToShow:1,
-        autoplay: false,
-        speed:1000,
-        autoplaySpeed:1000,
+        autoplay: true,
+        speed:5000,
+        autoplaySpeed:100,
         responsive:[
             {
                 breakpoint: 768,
