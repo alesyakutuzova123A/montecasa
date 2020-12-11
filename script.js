@@ -4,7 +4,7 @@
         arrows:false,
         dots:false,
         slidesToShow:1,
-        autoplay: false,
+        autoplay: true,
         speed:5000,
         autoplaySpeed:100,
         responsive:[
