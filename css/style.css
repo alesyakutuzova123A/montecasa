@@ -688,3 +688,17 @@ div.slider__item2 img {
     height: 100vh;
     width: 100%;
 }
+.villa__title{
+    background: #11344F;
+    position: absolute;
+    top: 77.4%;
+    padding: 30px;
+}
+.villa__title h1{
+    font-family: Playfair Display;
+font-size: 7.2rem;
+text-transform: uppercase;
+color: #FFFFFF;
+border:1px solid #fff;
+padding: 30px 50px;
+}
